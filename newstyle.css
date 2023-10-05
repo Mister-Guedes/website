@@ -1,0 +1,75 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menuh ul{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(46, 46, 46);
+}
+
+#menuh ul li{
+    display: inline;
+}
+
+#menuh ul li a{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .6s;
+}
+
+#menuh ul li a:hover {
+    background-color: #bdc916;
+}
+
+#pi {
+    position: fixed;
+    text-align: center;
+    color: #ffee06;
+    font-size:xx-large;
+    text-shadow: 3px 3px 5px #056cf3;
+    top: 20%;
+    left: 30%;
+}
+#se{
+    position: fixed;
+    text-align: center;
+    color: #ffee06;
+    font-size: xx-large ;
+    text-shadow: 3px 3px 5px #056cf3;
+    top: 40%;
+    left: 32%;
+}
+
+body{
+    background-image: url(lol.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#sobre{
+    text-align: center;
+    color: #ffee06;
+    text-shadow: 3px 3px 5px #056cf3;
+    font-size: xx-large;
+    position: fixed;
+    bottom: 70%;
+    left: 45%;
+}
+
+#sobre1{
+    text-align: center;
+    color: #ffee06;
+    text-shadow: 3px 3px 5px #056cf3;
+    font-size: x-large;
+    position: fixed;
+    bottom: 52%;
+    left: 32%;
+}
